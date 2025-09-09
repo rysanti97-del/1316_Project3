@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* Reset */
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-/* Base */
+
 body {
   font-family: 'Roboto', Arial, sans-serif;
   background: #eef7ff;
@@ -14,7 +14,7 @@ body {
   font-size: 16px;
 }
 
-/* Page frame */
+
 #container {
   width: 960px;
   margin: 0 auto;
@@ -25,7 +25,7 @@ body {
   overflow: hidden; /* safety with floats */
 }
 
-/* Header */
+
 header {
   background: #0b5ea8;
   color: #ffe27a;
@@ -45,7 +45,7 @@ header .subtitle {
   opacity: 0.9;
 }
 
-/* Nav (centered horizontal with hover/active styles) */
+
 nav {
   background: #bfe3ff;
   border: 2px solid #0b5ea8;
@@ -70,7 +70,7 @@ nav ul li a:visited { color: #5a3d9f; }
 nav ul li a:hover   { background: #e0f3ff; color: #e85a4f; }
 nav ul li a:active  { background: #ffd699; color: #ff6600; }
 
-/* Two-column layout (floats) */
+
 .two-col { margin-top: 4px; }
 .left {
   float: left;
@@ -82,7 +82,7 @@ nav ul li a:active  { background: #ffd699; color: #ff6600; }
   width: 38%;
 }
 
-/* Left column panels */
+
 .panel {
   margin-bottom: 16px;
   padding: 12px;
@@ -95,7 +95,7 @@ nav ul li a:active  { background: #ffd699; color: #ff6600; }
   margin-bottom: 8px;
 }
 
-/* Right column cards (interactive images) */
+
 .cards-title {
   text-align: center;
   color: #0b5ea8;
@@ -132,7 +132,7 @@ nav ul li a:active  { background: #ffd699; color: #ff6600; }
   text-align: center;
 }
 
-/* Footer (clears floats) */
+
 footer {
   clear: both;
   text-align: center;
@@ -143,7 +143,7 @@ footer {
   margin-top: 16px;
 }
 
-/* Lists inside content (not nav) */
+
 .panel ul,
 .panel ol {
   padding-left: 20px;
@@ -152,12 +152,12 @@ footer {
 }
 
 
-/* Smooth scrolling */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Back-to-top link */
+
 .back-to-top {
   color: #ffe27a;
   text-decoration: none;
